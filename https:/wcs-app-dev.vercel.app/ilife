@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>iLife • Command Center</title>
+
+  <!-- iPhone app-like meta -->
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(135deg, #1a0033, #3a0ca3, #7209b7);
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 30px 15px;
+    }
+    header img {
+      width: 80px;
+    }
+    h1 {
+      margin: 10px 0 5px;
+      font-size: 1.8rem;
+    }
+    .apps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      padding: 20px;
+    }
+    .app {
+      background: rgba(255,255,255,0.1);
+      padding: 15px;
+      border-radius: 15px;
+      transition: 0.3s;
+    }
+    .app:hover {
+      background: rgba(255,255,255,0.2);
+    }
+    .app a {
+      color: white;
+      text-decoration: none;
+      font-size: 0.9rem;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://raw.githubusercontent.com/matthewjay6973/Webchatsales-final-version/main/logo.png" alt="WebChatSales Logo"/>
+    <h1>iLife Command Center</h1>
+    <p>Your all-in-one launchpad</p>
+  </header>
+
+  <section class="apps">
+    <div class="app"><a href="https://webchatsales.com">🌐 WebChatSales</a></div>
+    <div class="app"><a href="https://github.com/matthewjay6973">💻 GitHub</a></div>
+    <div class="app"><a href="https://vercel.com/dashboard">▲ Vercel</a></div>
+    <div class="app"><a href="https://google.com">🔍 Google</a></div>
+    <div class="app"><a href="https://twitter.com">🐦 Twitter / X</a></div>
+    <div class="app"><a href="https://tiktok.com">🎵 TikTok</a></div>
+    <div class="app"><a href="https://calendar.google.com">📅 Calendar</a></div>
+    <div class="app"><a href="https://hulu.com">📺 Hulu</a></div>
+    <div class="app"><a href="https://netflix.com">🎬 Netflix</a></div>
+  </section>
+</body>
+</html>
